@@ -37,7 +37,7 @@ for keywords in records_keywords:
 # consumer_secret = "Ql3Cb53gSsx6UWxdRfWyB0rnorlX8j9psdJ1T4bwo6ssPz6vrz"
 # access_key = "332760146-dcUzpvnmz8i1XKHm8cTpfvG51mXJ8IaPNK5e3ytf"
 # access_secret = "ZwwmWA8KgNJXjrlg9VZ5gfOd5EHLnistFi1OQNMODo1mB"
-df=pd.read_excel("/opt/lampp/htdocs/SFDashboard/sf-admin/new/adminpanel/DataSources2.xlsx")
+df=pd.read_excel("../Resources/DataSources2.xlsx")
 Column=["organization","URL","twitter"]
 df.columns=Column
 df=df.replace(to_replace="?",value="NaN")
